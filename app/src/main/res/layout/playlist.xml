@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 Matteo Bernacchia <kikijikispaccaspecchi@gmail.com> -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="4dp" >
+
+        <ImageView
+            android:id="@+id/playlist_trash"
+            android:layout_width="@dimen/normal_height"
+            android:layout_height="@dimen/normal_height"
+            android:layout_marginRight="6dp"
+            android:padding="4dp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+        <CheckBox
+            android:id="@+id/playlist_shuffle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/playlist_shuffle" />
+    </LinearLayout>
+
+    <com.kikijiki.ryukisenga.ui.TouchInterceptor
+        android:id="@+id/playlist_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="2dp"
+        android:fadingEdge="none"
+        android:padding="4dp" />
+
+</LinearLayout>

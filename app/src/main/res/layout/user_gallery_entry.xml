@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 Matteo Bernacchia <kikijikispaccaspecchi@gmail.com> -->
+<CheckBox xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gallery_entry_checkbox"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="24sp"
+    android:textColor="#E3E3E3"
+    android:ellipsize="end"
+    android:singleLine="true"/>

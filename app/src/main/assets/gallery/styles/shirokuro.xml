@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style name="shirokuro">
+    <line  width ="1"  style="solid" color="white"/>
+    <trail  width ="1"  style="solid" color="gray"/>
+    <background style="solid" color="black"/>
+</style>

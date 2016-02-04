@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 Matteo Bernacchia <kikijikispaccaspecchi@gmail.com> -->
+<resources>
+    
+    <color name="blue_window_gradient_start">#004cb2</color>
+    <color name="blue_window_gradient_end">#010028</color>
+    <color name="blue_window_stroke">#dad6d7</color>
+    
+    <color name="purple_window_gradient_start">#6c0d81</color>
+    <color name="purple_window_gradient_end">#600b32</color>
+    <color name="purple_window_stroke">#dad6d7</color>
+    
+    <color name="list_item_rectangle_gradient_start_unselected">#004cb2</color>
+    <color name="list_item_rectangle_gradient_end_unselected">#010028</color>
+    <color name="list_item_rectangle_stroke_unselected">#dad6d7</color>
+    
+    <color name="list_item_rectangle_gradient_start_selected">#6c0d81</color>
+    <color name="list_item_rectangle_gradient_end_selected">#600b32</color>
+    <color name="list_item_rectangle_stroke_selected">#dad6d7</color>
+    
+    <color name="list_item_text_color">#eeeef0</color>
+    
+    <color name="list_item_fade_start">#50000000</color>
+    <color name="list_item_fade_end">#00000000</color>
+    <color name="list_item_fade_end_dark">#20000000</color>
+    
+    <color name="fade_start">#000000</color>
+    <color name="fade_end">#202020</color>
+
+    <color name="artist_info_label">#E01B6A</color>
+    <color name="artist_info_value">#CFCFCF</color>
+    
+    <color name="gallery_entry_rectangle_color_unselected">#40000000</color>
+    <color name="gallery_entry_rectangle_stroke_unselected">#dad6d7</color>
+
+	<color name="gallery_entry_rectangle_gradient_start_selected">#7792B3DE</color>
+	<color name="gallery_entry_rectangle_gradient_end_selected">#77FAF2F4</color>
+    <color name="gallery_entry_rectangle_stroke_selected">#FAF2F4</color>
+
+    <color name="tile_picker_rectangle_color">#000000</color>
+    <color name="tile_picker_rectangle_stroke">#C0C0C0</color>
+    
+    <color name="simple_spinner_item_text_color">#000000</color>
+    <color name="simple_spinner_item_text_color_dropdown">#000000</color>
+</resources>

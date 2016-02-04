@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 Matteo Bernacchia <kikijikispaccaspecchi@gmail.com> -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/artist_page_gallery_entry"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/gallery_entry_rectangle_unselected"
+    android:gravity="center_horizontal"
+    android:layout_alignParentTop="true" 
+    android:layout_alignParentLeft="true"
+    android:padding="2dp">
+    
+    <ImageView
+        android:id="@+id/gallery_entry_image"
+        android:contentDescription="@string/gallery_entry_icon_description"
+        android:scaleType="fitCenter"
+        android:layout_width="@dimen/gallery_icon_size"
+        android:layout_height="@dimen/gallery_icon_size"
+        android:padding="2dp"/>
+
+    <CheckBox
+        android:id="@+id/gallery_entry_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#E3E3E3"
+        android:textSize="12dp" />
+    
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 Matteo Bernacchia <kikijikispaccaspecchi@gmail.com> -->
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="top|center_horizontal">
+    
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+	<ExpandableListView
+	    android:id="@+id/style_picker_style_list"
+	    android:layout_width="@dimen/app_width"
+	    android:layout_height="match_parent"
+	    android:cacheColorHint="#00000000"
+	    android:divider="@android:color/transparent"/>   
+	    
+	<ImageView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    
+</LinearLayout>

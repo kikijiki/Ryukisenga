@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    def versionPropsFile = file('version.properties')
+
+    if (versionPropsFile.canRead()) {
+        def Properties versionProps = new Properties()
+
+        versionProps.load(new FileInputStream(versionPropsFile))
+
+        def code = versionProps['VERSION_CODE'].toInteger() + 1
+
+        versionProps['VERSION_CODE']=code.toString()
+        versionProps.store(versionPropsFile.newWriter(), null)
+
+        defaultConfig {
+            applicationId "com.kikijiki.ryukisenga"
+            versionCode code
+            versionName versionProps['VERSION_NAME']
+            minSdkVersion 15
+            targetSdkVersion 21
+        }
+    }
+    else {
+        throw new GradleException("Could not read version.properties!")
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':kabegamilib')
+    compile 'com.crittercism:crittercism-android-agent:4.5.4'
+    compile 'com.larswerkman:HoloColorPicker:1.4'
+    compile 'com.github.bluejamesbond:textjustify-android:2.1.0'
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style>
+    <line width ="1" style="gradient" angle="0">
+        <stop offset="0" color="#ff0000"/>
+        <stop offset="1" color="#0000ff"/>
+    </line>
+    <trail style="asLine"/>
+    <background style="solid" color="black"/>
+</style>

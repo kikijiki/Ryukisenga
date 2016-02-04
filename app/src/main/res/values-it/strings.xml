@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!-- Copyright (C) 2012-2014 Matteo Bernacchia <kikijikispaccaspecchi@gmail.com> -->
+<resources>
+    <string name="app_name">RyukiSenga</string>
+    <string name="wallpaper_description">Linee progressive</string>
+    <string name="loading_message">Caricamento… (￣▽￣)ノ</string>
+    <string name="artist_page_artist_website">sito</string>
+    <string name="artist_page_artist_twitter">twitter</string>
+    <string name="artist_page_artist_info">info</string>
+    <string name="artist_page_artist_mail">mail</string>
+    <string name="artist_page_artist_icon_description">artist icon</string>
+    <string name="artists_index_artist_count">Numero di immagini</string>
+    <string name="artists_index_entry_icon_description">artist icon</string>
+    <string name="artists_index_user_name">La mia galleria</string>
+    <string name="artist_page_artist_mail_prompt">Manda una mail all\'artista</string>
+    <string name="gallery_entry_icon_description">gallery entry icon</string>
+    <string name="playlist_entry_icon_description">playlist entry icon</string>
+    <string name="playlist_entry_style_desc">stile: </string>
+    <string name="playlist_add_remove">Apri galleria</string>
+    <string name="playlist_shuffle">Ordine casuale</string>
+    <string name="playlist_empty">La playlist è vuota!</string>
+    <string name="playlist_empty2">Modifica le impostazioni dello sfondo.</string>
+    <string name="user_gallery_scan_started">Ricerca delle immagini in corso…</string>
+    <string name="user_gallery_rescan">Ricerca</string>
+    <string name="stylelist_add">Aggiungi nuovo</string>
+    <string name="style_picker_default_style">Stili predefiniti</string>
+    <string name="style_picker_custom_style">Stili personalizzati</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Annulla</string>
+    <string name="style_editor_name_dialog_title">Scegli un nome per lo stile</string>
+    <string name="style_editor_name_dialog_message">Nome stile</string>
+    <string name="style_editor_name_dialog_title_na">Nome non valido</string>
+    <string name="style_editor_name_dialog_message_na">Uno stile con lo stesso nome è già presente</string>
+    <string name="style_editor_name_dialog_cancel">Annulla</string>
+    <string name="style_editor_line_group">linea</string>
+    <string name="style_editor_trail_group">traccia</string>
+    <string name="style_editor_background_group">sfondo</string>
+    <string name="style_editor_fill_type">riempimento</string>
+    <string name="style_editor_fill_type_solid">solido</string>
+    <string name="style_editor_fill_type_gradient">gradiente</string>
+    <string name="style_editor_fill_type_tile">mosaico</string>
+    <string name="style_editor_color">colore</string>
+    <string name="style_editor_stroke_width">spessore</string>
+    <string name="style_editor_trail_as_line">come la linea</string>
+    <string name="style_editor_background_scale">ingrandimento</string>
+    <string name="style_editor_size_too_big_title">Dimensione non valida</string>
+    <string name="style_editor_size_too_big_message">L\'immagine è troppo grande, prova con una più piccola (larghezza e altezza non devono superare 256px)</string>
+    <string name="style_editor_invalid_tile_title">File non valido</string>
+    <string name="style_editor_invalid_tile_message">Il file che hai selezionato non è un\'immagine valida.</string>
+    <string name="custom_style_list_confirm_delete_title">Conferma rimozione</string>
+    <string name="custom_style_list_confirm_delete_message">Vuoi davvero cancellare </string>
+    <string name="gradient_editor_add_stop">Aggiungi colore</string>
+    <string name="gradient_editor_uniform">Spaziatura uniforme</string>
+    <string name="gradient_editor_save_and_exit">Salva ed esci</string>
+    <string name="tile_picker_open_gallery">Galleria</string>
+    <string name="licenseOpenMarket">Vai su Google Play</string>
+    <string name="licenseExit">Esci</string>
+    <string name="licenseError">La licenza di quest\u0027applicazione non è valida.\nProva a lanciarla di nuovo mentre hai accesso ad una rete internet.\nSe non funziona, disinstalla l\u0027applicazione e scaricala di nuovo dal market.</string>
+    <string name="licenseErrorTitle">Errore licenza</string>
+    <string name="licenseOtherErrorTitle">Errore server</string>
+    <string name="licenceOtherError">C\u0027è stato un errore con il server delle licenze del market di android. Riprova tra poco.</string>
+    <string name="preferences_category_style">Stile</string>
+    <string name="preferences_category_other">Altro</string>
+    <string name="preferences_category_notes">Notes</string>
+    <string name="preferences_category_playlist">Playlist</string>
+    <string name="preferences_edit_playlist">Modifica playlist</string>
+    <string name="preferences_edit_playlist_summary">Aggiungi, riordina o rimuovi immagini</string>
+    <string name="preferences_edit_styles">Modifica stili personalizzati</string>
+    <string name="preferences_edit_styles_summary">Aggiungi, modifica o rimuovi stili</string>
+    <string name="preferences_sequence_type">Stile di disegno della sequenza</string>
+    <string name="preferences_sequence_type_summary"/>
+    <string name="preferences_sequence_use_trail">Traccia della linea</string>
+    <string name="preferences_sequence_use_trail_enabled">Le linee scorrono dentro il disegno</string>
+    <string name="preferences_sequence_use_trail_disabled">Disegna direttamente le linee</string>
+    <string name="preferences_playlist_interval">Durata transizione</string>
+    <string name="preferences_playlist_interval_summary">%s</string>
+    <string name="preferences_license_notes">Licenze</string>
+    <string name="preferences_license_notes_summary">Codice, immagini e altro</string>
+    <string name="delete">cancella</string>
+    <string-array name="preferences_sequence_use_trail_desc">
+        <item>Abilitato</item>
+        <item>Disabilitato</item>
+    </string-array>
+    <string-array name="preferences_playlist_interval_desc">
+        <item>Immediato</item>
+        <item>10 secondi</item>
+        <item>30 secondi</item>
+        <item>1 minuto</item>
+        <item>10 minuti</item>
+        <item>Al tocco dello schermo</item>
+    </string-array>
+    <string name="preferences_sequence_line_speed">Velocità linea</string>
+    <string name="preferences_sequence_line_speed_summary">%s</string>
+    <string-array name="preferences_sequence_line_speed_desc">
+        <item>Molto lento</item>
+        <item>Lento</item>
+        <item>Normale</item>
+        <item>Veloce</item>
+        <item>Molto veloce</item>
+    </string-array>
+    <string name="preferences_sequence_trail_speed">Velocità traccia</string>
+    <string name="preferences_sequence_trail_speed_summary">%s</string>
+    <string-array name="preferences_sequence_trail_speed_desc">
+        <item>Molto lento</item>
+        <item>Lento</item>
+        <item>Normale</item>
+        <item>Veloce</item>
+        <item>Molto veloce</item>
+    </string-array>
+    <string name="preferences_sequence_group_length">Grandezza gruppo</string>
+    <string name="preferences_sequence_group_length_summary">%s</string>
+    <string-array name="preferences_sequence_group_length_desc">
+        <item>Una alla volta</item>
+        <item>Poche</item>
+        <item>Normale</item>
+        <item>Molte</item>
+        <item>Moltissime</item>
+    </string-array>
+    <string name="preferences_sequence_display_mode">Ridimensionamento</string>
+    <string name="preferences_sequence_display_mode_summary">%s</string>
+    <string-array name="preferences_sequence_display_mode_desc">
+        <item>Adatta</item>
+        <item>Adatta (solo larghezza)</item>
+        <item>Adatta (solo altezza)</item>
+        <item>Non ridimensionare</item>
+    </string-array>
+    <string name="preferences_sequence_scroll_mode">Scorrimento</string>
+    <string name="preferences_sequence_scroll_mode_summary">%s</string>
+    <string-array name="preferences_sequence_scroll_mode_desc">
+        <item>Abilitato</item>
+        <item>Disabilitato</item>
+        <item>Forzato</item>
+    </string-array>
+
+    <string name="title_activity_color_picker">Selezione colore</string>
+</resources>

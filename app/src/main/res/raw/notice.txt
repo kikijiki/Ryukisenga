@@ -1,0 +1,28 @@
+
+<!-- saved from url=(0061)http://svg-android.googlecode.com/svn/trunk/svgandroid/NOTICE -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><script>window["_GOOG_TRANS_EXT_VER"] = "1";</script><title></title></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">SVG Android
+Copyright 2011 Larva Labs LLC and Google, Inc.
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+---
+
+Apache Batik
+Copyright 1999-2007 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+This software contains code from the World Wide Web Consortium (W3C) for the
+Document Object Model API (DOM API) and SVG Document Type Definition (DTD).
+
+This software contains code from the International Organisation for
+Standardization for the definition of character entities used in the software's
+documentation.
+
+This product includes images from the Tango Desktop Project
+(http://tango.freedesktop.org/).
+
+This product includes images from the Pasodoble Icon Theme
+(http://www.jesusda.com/projects/pasodoble).</pre><div id="GOOGLE_INPUT_CHEXT_FLAG" style="display: none; "></div><div style="position: absolute; "><span class="chext-kd-inputtools-div" style="z-index: 2147483644; "></span></div></body><link rel="stylesheet" type="text/css" href="data:text/css,"></html>

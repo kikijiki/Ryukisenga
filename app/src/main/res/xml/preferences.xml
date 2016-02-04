@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 Matteo Bernacchia <kikijikispaccaspecchi@gmail.com> -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory 
+        android:key="preference_category_playlist" 
+        android:title="@string/preferences_category_playlist">
+        
+    	<Preference 
+    	    android:title="@string/preferences_edit_playlist" 
+    	    android:key="preferences_edit_playlist" 
+    	    android:enabled="true"
+    	    android:summary="@string/preferences_edit_playlist_summary" 
+    	    android:selectable="true" 
+    	    android:persistent="true"/>
+    	
+    	<ListPreference 
+    	    android:key="preferences_playlist_interval" 
+    	    android:title="@string/preferences_playlist_interval" 
+    	    android:defaultValue="@string/preferences_playlist_interval_default" 
+    	    android:summary="@string/preferences_playlist_interval_summary" 
+    	    android:entries="@array/preferences_playlist_interval_desc" 
+    	    android:entryValues="@array/preferences_playlist_interval_values"/>
+    	
+	</PreferenceCategory>
+	
+	<PreferenceCategory 
+	    android:key="preference_category_style"
+	    android:title="@string/preferences_category_style">
+    	
+    	<Preference 
+    	    android:key="preferences_edit_styles" 
+    	    android:selectable="true" 
+    	    android:enabled="true" 
+    	    android:title="@string/preferences_edit_styles" 
+    	    android:summary="@string/preferences_edit_styles_summary" 
+    	    android:persistent="true"/>
+    	
+    	<ListPreference  
+    	    android:title="@string/preferences_sequence_use_trail" 
+    	    android:key="preferences_sequence_use_trail"
+    	    android:persistent="true" 
+    	    android:enabled="true" 
+    	    android:entries="@array/preferences_sequence_use_trail_desc"
+    	    android:entryValues="@array/preferences_sequence_use_trail_values"
+    	    android:defaultValue="@string/preferences_sequence_use_trail_default"/>    	
+
+	</PreferenceCategory>
+	
+	<PreferenceCategory 
+	    xmlns:android="http://schemas.android.com/apk/res/android" 
+	    android:key="preference_category_other" 
+	    android:title="@string/preferences_category_other">
+    	
+    	<ListPreference  
+    	    android:key="preferences_sequence_line_speed" 
+    	    android:title="@string/preferences_sequence_line_speed"
+    	    android:summary="@string/preferences_sequence_line_speed_summary"  
+    	    android:entryValues="@array/preferences_sequence_line_speed_values"
+    	    android:entries="@array/preferences_sequence_line_speed_desc"
+    	    android:selectable="true" 
+    	    android:enabled="true" 
+    	    android:persistent="true" 
+    	    android:defaultValue="@string/preferences_sequence_line_speed_default"
+    	    />
+    	
+    	<ListPreference  
+    	    android:key="preferences_sequence_trail_speed" 
+    	    android:title="@string/preferences_sequence_trail_speed"
+    	    android:summary="@string/preferences_sequence_trail_speed_summary"
+    	    android:entryValues="@array/preferences_sequence_trail_speed_values"
+    	    android:entries="@array/preferences_sequence_trail_speed_desc"
+    	    android:selectable="true" 
+    	    android:enabled="true" 
+    	    android:persistent="true"
+    	    android:defaultValue="@string/preferences_sequence_trail_speed_default"
+    	    />
+    	
+    	<ListPreference  
+    	    android:key="preferences_sequence_group_length" 
+    	    android:title="@string/preferences_sequence_group_length"
+    	    android:summary="@string/preferences_sequence_group_length_summary" 
+    	    android:entries="@array/preferences_sequence_group_length_desc" 
+    	    android:entryValues="@array/preferences_sequence_group_length_values" 
+    	    android:defaultValue="@string/preferences_sequence_group_length_default"
+    	    />
+    	
+		<ListPreference 
+		    android:key="preferences_sequence_display_mode" 
+		    android:entries="@array/preferences_sequence_display_mode_desc" 
+		    android:entryValues="@array/preferences_sequence_display_mode_values" 
+		    android:summary="@string/preferences_sequence_display_mode_summary" 
+		    android:title="@string/preferences_sequence_display_mode" 
+		    android:enabled="true" 
+		    android:defaultValue="@string/preferences_sequence_display_mode_default"
+		    />
+		
+		<ListPreference 
+		    android:entries="@array/preferences_sequence_scroll_mode_desc"
+		    android:entryValues="@array/preferences_sequence_scroll_mode_values" 
+		    android:key="preferences_sequence_scroll_mode" 
+		    android:summary="@string/preferences_sequence_scroll_mode_summary" 
+		    android:title="@string/preferences_sequence_scroll_mode" 
+		    android:defaultValue="@string/preferences_sequence_scroll_mode_default"
+		    />
+		
+	</PreferenceCategory>
+	
+	<PreferenceCategory 
+	    android:key="preference_category_notes" 
+	    android:title="@string/preferences_category_notes">
+		
+		<Preference 
+    	    android:key="preferences_license_notes" 
+    	    android:selectable="true" 
+    	    android:enabled="true" 
+    	    android:title="@string/preferences_license_notes" 
+    	    android:summary="@string/preferences_license_notes_summary" 
+    	    android:persistent="true"/>
+		
+	</PreferenceCategory>
+    
+</PreferenceScreen>

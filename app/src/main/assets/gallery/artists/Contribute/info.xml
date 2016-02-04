@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright 2015 Matteo Bernacchia <kikijikispaccaspecchi@gmail.com>
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<artist>
+	<name>Contribute</name>
+	<info>
+	If you want to add your gallery send me an email with your data (name/nickname (required), info, website, email, twitter) and vectors (SVG file, title and name of the style used). If you used a custom style, send me that too (you can find it in the phone memory under the "RyukiSenga/styles" folder).
+
+	あなたもギャラリーに追加されたいならメールで個人情報（名前またはあだな[必須]、説明、HP、メール、ツイッター）と画像データ（SVGファイル、タイル、スタイル名）を送ってください。カスタムスタイルの場合、そのファイルも添付してください（"RyukiSenga/styles"というフォルダのなかにあります）。
+
+	Se vuoi essere aggiunto alla galleria mandami per email i tuoi dati (nome/nickname (obbligatorio), info, website, email, twitter) e le imamgini (file SVG, titolo e nome dello stile usato). Nel caso di stili personalizzati allega anche quelli (si trovano nella cartella "RyukiSenga/styles").
+    </info>
+	<website>www.kikijiki.com</website>
+	<email>android@kikijiki.com</email>
+</artist>

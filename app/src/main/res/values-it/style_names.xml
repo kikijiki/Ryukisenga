@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 Matteo Bernacchia <kikijikispaccaspecchi@gmail.com> -->
+<resources>
+    <string-array name="style_names">
+        <item >ryuki;Ryuki</item>
+        <item >shirokuro;白黒</item>
+    </string-array>
+    
+</resources>

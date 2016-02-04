@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 Matteo Bernacchia <kikijikispaccaspecchi@gmail.com> -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <item type="integer" format="integer" name="line_default_speed">100</item>
+    <item type="integer" format="integer" name="line_max_speed">1000</item>
+    
+    <item type="integer" format="integer" name="trail_default_speed">100</item>
+    <item type="integer" format="integer" name="trail_max_speed">1000</item>
+    
+    <string-array name="preferences_sequence_use_trail_values">
+        <item>use_trail</item>
+        <item>no_trail</item>
+    </string-array>
+    <string name="preferences_sequence_use_trail_default">use_trail</string>
+    <string-array name="preferences_playlist_interval_values">
+        <item>0</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>600</item>
+        <item>-1</item>
+    </string-array>
+    <string name="preferences_playlist_interval_default">10</string>
+    <string-array name="preferences_sequence_line_speed_values">
+        <item>20</item>
+        <item>60</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+    </string-array>
+    <string name="preferences_sequence_line_speed_default">100</string>
+    <string-array name="preferences_sequence_trail_speed_values">
+        <item>20</item>
+        <item>60</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+    </string-array>
+    <string name="preferences_sequence_trail_speed_default">100</string>
+    <string-array name="preferences_sequence_group_length_values">
+        <item>0</item>
+        <item>200</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+    </string-array>
+    <string name="preferences_sequence_group_length_default">500</string>
+    <string-array name="preferences_sequence_display_mode_values">
+        <item>fit</item>
+        <item>fitWidth</item>
+        <item>fitHeight</item>
+        <item>noResize</item>
+    </string-array>
+    <string name="preferences_sequence_display_mode_default">fitHeight</string>
+    <string-array name="preferences_sequence_scroll_mode_values">
+        <item>enabled</item>
+        <item>disabled</item>
+        <item>forced</item>
+    </string-array>
+    <string name="preferences_sequence_scroll_mode_default">enabled</string>  
+</resources>

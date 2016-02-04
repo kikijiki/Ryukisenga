@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 Matteo Bernacchia <kikijikispaccaspecchi@gmail.com> -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+    <fragment class="com.kikijiki.ryukisenga.gallery.ArtistsIndexFragment"
+		android:id="@+id/artists_index_fragment" 
+		android:layout_weight="1"
+		android:layout_width="0px"
+		android:layout_height="match_parent"/>
+
+    <FrameLayout 
+        android:id="@+id/artists_index_artist_page_fragment" 
+        android:layout_weight="1"
+		android:layout_width="0px"
+		android:layout_height="match_parent"
+		android:layout_marginLeft="2dp" />
+    
+</LinearLayout>

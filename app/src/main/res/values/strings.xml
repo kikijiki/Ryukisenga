@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 Matteo Bernacchia <kikijikispaccaspecchi@gmail.com> -->
+<resources>
+
+    <string name="app_name">RyukiSenga</string>
+    <string name="wallpaper_description">Progressive lines</string>
+    <string name="loading_message">Loading… (￣▽￣)ノ</string>
+    <string name="artist_page_artist_website">website</string>
+    <string name="artist_page_artist_twitter">twitter</string>
+    <string name="artist_page_artist_info">info</string>
+    <string name="artist_page_artist_mail">mail</string>
+    <string name="artist_page_artist_icon_description">artist icon</string>
+    <string name="artists_index_artist_count">Image count</string>
+    <string name="artists_index_entry_icon_description">artist icon</string>
+    <string name="artists_index_user_name">My gallery</string>
+    <string name="artist_page_artist_mail_prompt">Send mail to artist</string>
+    <string name="gallery_entry_icon_description">gallery entry icon</string>
+    <string name="playlist_entry_icon_description">playlist entry icon</string>
+    <string name="playlist_entry_style_desc">style: </string>
+    <string name="playlist_add_remove">Open gallery</string>
+    <string name="playlist_shuffle">Shuffle</string>
+    <string name="playlist_empty">Playlist is empty!</string>
+    <string name="playlist_empty2">Edit wallpaper settings.</string>
+    <string name="user_gallery_scan_started">Scanning for images, please wait…</string>
+    <string name="user_gallery_rescan">Rescan</string>
+    <string name="stylelist_add">Add new</string>
+    <string name="style_picker_default_style">Default styles</string>
+    <string name="style_picker_custom_style">Custom styles</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="style_editor_name_dialog_title">Select a name for the style</string>
+    <string name="style_editor_name_dialog_message">Style name</string>
+    <string name="style_editor_name_dialog_title_na">Invalid name</string>
+    <string name="style_editor_name_dialog_message_na">A style with the same name is already present</string>
+    <string name="style_editor_name_dialog_cancel">Cancel</string>
+    <string name="style_editor_line_group">line</string>
+    <string name="style_editor_trail_group">trail</string>
+    <string name="style_editor_background_group">background</string>
+    <string name="style_editor_fill_type">fill style</string>
+    <string name="style_editor_fill_type_solid">solid</string>
+    <string name="style_editor_fill_type_gradient">gradient</string>
+    <string name="style_editor_fill_type_tile">tile</string>
+    <string name="style_editor_color">color</string>
+    <string name="style_editor_stroke_width">width</string>
+    <string name="style_editor_trail_as_line">same as line</string>
+    <string name="style_editor_background_scale">scale</string>
+    <string name="style_editor_size_too_big_title">Invalid size</string>
+    <string name="style_editor_size_too_big_message">The image is too big, try using a smaller one (width and height must not exceed 256px)</string>
+    <string name="style_editor_invalid_tile_title">Invalid file</string>
+    <string name="style_editor_invalid_tile_message">The file you selected is not a valid image</string>
+    <string name="custom_style_list_confirm_delete_title">Confirm deletion</string>
+    <string name="custom_style_list_confirm_delete_message">You really want to delete</string>
+    <string name="gradient_editor_add_stop">Add color</string>
+    <string name="gradient_editor_uniform">Uniform spacing</string>
+    <string name="gradient_editor_save_and_exit">Save and exit</string>
+    <string name="tile_picker_open_gallery">Gallery</string>
+    <string name="licenseOpenMarket">Open Google Play</string>
+    <string name="licenseExit">Exit</string>
+    <string name="licenseError">This application license is not valid.\nTry running it again while connected to an internet network to activate it.\nIf it does not work, uninstall and download again from the market.</string>
+    <string name="licenseErrorTitle">License error</string>
+    <string name="licenseOtherErrorTitle">Server error</string>
+    <string name="licenceOtherError">An error has occurred with the market licensing server. Please try again.</string>
+    <string name="preferences_category_style">Style</string>
+    <string name="preferences_category_other">Other</string>
+    <string name="preferences_category_notes">Notes</string>
+    <string name="preferences_category_playlist">Playlist</string>
+    <string name="preferences_edit_playlist">Edit playlist</string>
+    <string name="preferences_edit_playlist_summary">Add, reorder or delete images</string>
+    <string name="preferences_edit_styles">Edit custom styles</string>
+    <string name="preferences_edit_styles_summary">Add, edit or delete drawing styles</string>
+    <string name="preferences_sequence_type">Sequence drawing style</string>
+    <string name="preferences_sequence_type_summary"></string>
+    <string name="preferences_sequence_use_trail">Line trail</string>
+    <string name="preferences_sequence_use_trail_enabled">Lines flow inside the drawing</string>
+    <string name="preferences_sequence_use_trail_disabled">Lines are draw directly</string>
+    <string name="preferences_playlist_interval">Transition length</string>
+    <string name="preferences_playlist_interval_summary">%s</string>
+    <string name="preferences_license_notes">License notes</string>
+    <string name="preferences_license_notes_summary">Code, images and stuff</string>
+    <string name="delete">delete</string>
+
+    <string-array name="preferences_sequence_use_trail_desc">
+        <item>Enabled</item>
+        <item>Disabled</item>
+    </string-array>
+    <string-array name="preferences_playlist_interval_desc">
+        <item>Immediate</item>
+        <item>10 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>10 minutes</item>
+        <item>On touch</item>
+    </string-array>
+
+    <string name="preferences_sequence_line_speed">Line speed</string>
+    <string name="preferences_sequence_line_speed_summary">%s</string>
+
+    <string-array name="preferences_sequence_line_speed_desc">
+        <item>Very slow</item>
+        <item>Slow</item>
+        <item>Normal</item>
+        <item>Fast</item>
+        <item>Very fast</item>
+    </string-array>
+
+    <string name="preferences_sequence_trail_speed">Trail speed</string>
+    <string name="preferences_sequence_trail_speed_summary">%s</string>
+
+    <string-array name="preferences_sequence_trail_speed_desc">
+        <item>Very slow</item>
+        <item>Slow</item>
+        <item>Normal</item>
+        <item>Fast</item>
+        <item>Very fast</item>
+    </string-array>
+
+    <string name="preferences_sequence_group_length">Group size</string>
+    <string name="preferences_sequence_group_length_summary">%s</string>
+
+    <string-array name="preferences_sequence_group_length_desc">
+        <item>One at a time</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Big</item>
+        <item>Very big</item>
+    </string-array>
+
+    <string name="preferences_sequence_display_mode">Resize mode</string>
+    <string name="preferences_sequence_display_mode_summary">%s</string>
+
+    <string-array name="preferences_sequence_display_mode_desc">
+        <item>Fit(both)</item>
+        <item>Fit(width)</item>
+        <item>Fit(height)</item>
+        <item>Don\'t resize</item>
+    </string-array>
+
+    <string name="preferences_sequence_scroll_mode">Scroll mode</string>
+    <string name="preferences_sequence_scroll_mode_summary">%s</string>
+
+    <string-array name="preferences_sequence_scroll_mode_desc">
+        <item>Enabled</item>
+        <item>Disabled</item>
+        <item>Forced</item>
+    </string-array>
+
+    <string name="title_activity_color_picker">Color picker</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 Matteo Bernacchia <kikijikispaccaspecchi@gmail.com> -->
+<resources>
+    <dimen name="normal_height">64dp</dimen>
+    <dimen name="expanded_height">128dp</dimen>
+    
+    <dimen name="gallery_icon_size">120dp</dimen>
+    <dimen name="gallery_entry_width">160dp</dimen>
+    
+    <dimen name="tile_preview_height">240dp</dimen>
+    <dimen name="style_preview_height">240dp</dimen>
+    
+    <dimen name="app_width">320dp</dimen>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 Matteo Bernacchia <kikijikispaccaspecchi@gmail.com> -->
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp" >
+
+	<ListView
+	    android:id="@+id/stylelist_list"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" 
+	    android:cacheColorHint="#00000000"
+	    android:divider="@android:color/transparent"
+	    android:dividerHeight="2dp"
+	    android:fadingEdge="none">
+	    <!-- Preview: listitem=@layout/custom_stylelist_entry -->
+	</ListView>
+
+</LinearLayout>

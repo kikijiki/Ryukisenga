@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 Matteo Bernacchia <kikijikispaccaspecchi@gmail.com> -->
+<wallpaper 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:thumbnail="@drawable/ic_launcher"
+	android:description="@string/wallpaper_description"  
+	android:settingsActivity="com.kikijiki.ryukisenga.preferences.WallPreferences"/>

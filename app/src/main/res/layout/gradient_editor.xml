@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 Matteo Bernacchia <kikijikispaccaspecchi@gmail.com> -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:orientation="vertical">
+	
+	<LinearLayout
+		android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="4dp"
+        android:layout_marginBottom="2dp">
+	          
+  		<ImageView
+	        android:id="@+id/gradient_editor_preview"
+	        android:layout_width="match_parent"
+	        android:layout_height="128dp"
+	        android:layout_marginLeft="4dp"
+	        android:layout_marginRight="4dp"/>
+		
+	</LinearLayout>
+	
+	<LinearLayout
+		android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_vertical"
+	        android:orientation="horizontal">
+	        
+			<LinearLayout
+				android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:orientation="vertical"
+	    		android:layout_gravity="left"
+	    		android:gravity="center_horizontal">
+	
+			    <ImageView
+			        android:id="@+id/gradient_editor_stop_start"
+			        android:layout_width="64dp"
+			        android:layout_height="64dp"
+			        android:padding="4dp" />
+	   
+		   		<TextView 
+		       		android:text="start"
+		       		android:layout_width="wrap_content"
+		    		android:layout_height="wrap_content"/>
+  
+  			</LinearLayout>
+  			
+			<LinearLayout
+				android:layout_width="0dp"
+	    		android:layout_height="wrap_content"
+	    		android:orientation="vertical"
+	    		android:gravity="center_horizontal"
+	    		android:layout_weight="1"
+	    		android:layout_marginLeft="2dp"
+	    		android:layout_marginRight="2dp">
+
+				<com.kikijiki.ryukisenga.ui.GraduatedSeekbar
+					android:id="@+id/gradient_editor_gradient_angle_seekbar"
+					android:layout_width="match_parent"
+					android:layout_height="48dp" />
+			
+				<TextView 
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:text="orientation"/>			
+			    
+			</LinearLayout>	
+  			
+			<LinearLayout
+				android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:orientation="vertical"
+	    		android:layout_gravity="right"
+	    		android:gravity="center_horizontal">
+	
+			    <ImageView
+			        android:id="@+id/gradient_editor_stop_end"
+			        android:layout_width="64dp"
+			        android:layout_height="64dp"
+			        android:padding="4dp" />
+	   
+		   		<TextView 
+		       		android:text="end"
+		       		android:layout_width="wrap_content"
+		    		android:layout_height="wrap_content"/>
+  
+  			</LinearLayout>			
+	    
+	     </LinearLayout>
+	     
+		<com.kikijiki.ryukisenga.ui.VerticalListView
+			android:id="@+id/gradient_editor_stop_list"
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1"
+	        android:cacheColorHint="#00000000"
+	        android:fadingEdge="none"
+	        android:dividerHeight="2dp"
+	        android:divider="@android:color/transparent" />
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical">
+
+			<CheckBox
+			    android:id="@+id/gradient_editor_uniform"
+			    android:layout_width="0dp"
+			    android:layout_weight="1"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="center_horizontal|bottom"
+			    android:text="@string/gradient_editor_uniform"
+			    android:textColor="#c0c0c0" />
+			
+			<Button 
+			    android:id="@+id/gradient_editor_save_and_exit"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/gradient_editor_save_and_exit"
+			    android:padding="6dp"
+			    android:textSize="16sp"
+			    android:textColor="#FFFFFF"/>
+		
+		</LinearLayout>
+				
+	</LinearLayout>	
+	
+</LinearLayout>

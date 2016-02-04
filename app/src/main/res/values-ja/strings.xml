@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!-- Copyright (C) 2012-2014 Matteo Bernacchia <kikijikispaccaspecchi@gmail.com> -->
+<resources>
+    <string name="app_name">流輝線画</string>
+    <string name="wallpaper_description">Progressive lines</string>
+    <string name="loading_message">ロード中… (￣▽￣)ノ</string>
+    <string name="artist_page_artist_website">サイト</string>
+    <string name="artist_page_artist_twitter">ツイッター</string>
+    <string name="artist_page_artist_info">情報</string>
+    <string name="artist_page_artist_mail">メール</string>
+    <string name="artist_page_artist_icon_description">アーティストアイコン</string>
+    <string name="artists_index_artist_count">イメージ数</string>
+    <string name="artists_index_entry_icon_description">アーティストアイコン</string>
+    <string name="artists_index_user_name">ストレージ</string>
+    <string name="artist_page_artist_mail_prompt">アーティストにメールする</string>
+    <string name="gallery_entry_icon_description">ギャラリーアエントリーアイコン</string>
+    <string name="playlist_entry_icon_description">プレイリストエントリーアイコン</string>
+    <string name="playlist_entry_style_desc">スタイル: </string>
+    <string name="playlist_add_remove">ギャラリーへ</string>
+    <string name="playlist_shuffle">シャッフル</string>
+    <string name="playlist_empty">プレイリストは空です！</string>
+    <string name="playlist_empty2">壁紙の設定を変更して下さい</string>
+    <string name="user_gallery_scan_started">スキャン中です、少々お待ち下さい。</string>
+    <string name="user_gallery_rescan">再スキャン</string>
+    <string name="stylelist_add">追加</string>
+    <string name="style_picker_default_style">通常スタイル</string>
+    <string name="style_picker_custom_style">自分のスタイル</string>
+    <string name="dialog_ok">確認</string>
+    <string name="dialog_cancel">キャンセル</string>
+    <string name="style_editor_name_dialog_title">スタイルの名前を選んで下さい</string>
+    <string name="style_editor_name_dialog_message">スタイル名</string>
+    <string name="style_editor_name_dialog_title_na">名前が無効です</string>
+    <string name="style_editor_name_dialog_message_na">同じ名前のスタイルは既にあります</string>
+    <string name="style_editor_name_dialog_cancel">キャンセル</string>
+    <string name="style_editor_line_group">線</string>
+    <string name="style_editor_trail_group">跡</string>
+    <string name="style_editor_background_group">背景</string>
+    <string name="style_editor_fill_type">塗りつぶし</string>
+    <string name="style_editor_fill_type_solid">単色</string>
+    <string name="style_editor_fill_type_gradient">グラデ</string>
+    <string name="style_editor_fill_type_tile">タイル</string>
+    <string name="style_editor_color">色</string>
+    <string name="style_editor_stroke_width">太さ</string>
+    <string name="style_editor_trail_as_line">線と同様</string>
+    <string name="style_editor_background_scale">スケール</string>
+    <string name="style_editor_size_too_big_title">サイズは無効です</string>
+    <string name="style_editor_size_too_big_message">イメージは大きすぎます。より小さいイメージを使って下さい（高さ、幅、最大２５６ピクセル）</string>
+    <string name="style_editor_invalid_tile_title">ファイルは無効です</string>
+    <string name="style_editor_invalid_tile_message">選択したファイルは有効なイメージではないです</string>
+    <string name="custom_style_list_confirm_delete_title">削除の確認</string>
+    <string name="custom_style_list_confirm_delete_message">本当に消しますか？</string>
+    <string name="gradient_editor_add_stop">色を追加</string>
+    <string name="gradient_editor_uniform">均等な間隔</string>
+    <string name="gradient_editor_save_and_exit">保存して完了</string>
+    <string name="tile_picker_open_gallery">ギャラリー</string>
+    <string name="licenseOpenMarket">Google Playへ</string>
+    <string name="licenseExit">終了</string>
+    <string name="licenseError">このアプリケーションライセンスは有効ではありません。\nネットワークに接続してもう一度やりなおして下さい。\n動作しない場合は、アンインストールしてマーケットからダウンロードしなおして下さい。</string>
+    <string name="licenseErrorTitle">ライセンスエラー</string>
+    <string name="licenseOtherErrorTitle">サーバーエラー</string>
+    <string name="licenceOtherError">アンドロイドのライセンスサーバーエラー、しばらくしてからもう一度試して下さい</string>
+    <string name="preferences_category_style">スタイル</string>
+    <string name="preferences_category_other">その他</string>
+    <string name="preferences_category_notes">ノート</string>
+    <string name="preferences_category_playlist">プレイリスト</string>
+    <string name="preferences_edit_playlist">プレイリストを編集</string>
+    <string name="preferences_edit_playlist_summary">イメージの追加、削除、順番</string>
+    <string name="preferences_edit_styles">マイ・スタイル</string>
+    <string name="preferences_edit_styles_summary">スタイルの追加、削除、編集</string>
+    <string name="preferences_sequence_type">描画設定</string>
+    <string name="preferences_sequence_type_summary"/>
+    <string name="preferences_sequence_use_trail">線の跡</string>
+    <string name="preferences_sequence_use_trail_enabled">線は外から流れる</string>
+    <string name="preferences_sequence_use_trail_disabled">その場で線を描く</string>
+    <string name="preferences_playlist_interval">切り替え時間</string>
+    <string name="preferences_playlist_interval_summary">%s</string>
+    <string name="preferences_license_notes">ライセンス</string>
+    <string name="preferences_license_notes_summary">コードライブラリーやイメージなど</string>
+    <string name="delete">削除</string>
+    <string-array name="preferences_sequence_use_trail_desc">
+        <item>有効</item>
+        <item>無効</item>
+    </string-array>
+    <string-array name="preferences_playlist_interval_desc">
+        <item>すぐ</item>
+        <item>10秒</item>
+        <item>30秒</item>
+        <item>1分</item>
+        <item>10分</item>
+        <item>タッチするとき</item>
+    </string-array>
+    <string name="preferences_sequence_line_speed">線の速度</string>
+    <string name="preferences_sequence_line_speed_summary">%s</string>
+    <string-array name="preferences_sequence_line_speed_desc">
+        <item>遅い</item>
+        <item>やや遅い</item>
+        <item>通常</item>
+        <item>やや速い</item>
+        <item>速い</item>
+    </string-array>
+    <string name="preferences_sequence_trail_speed">跡の速度</string>
+    <string name="preferences_sequence_trail_speed_summary">%s</string>
+    <string-array name="preferences_sequence_trail_speed_desc">
+        <item>遅い</item>
+        <item>やや遅い</item>
+        <item>通常</item>
+        <item>やや速い</item>
+        <item>速い</item>
+    </string-array>
+    <string name="preferences_sequence_group_length">線の数</string>
+    <string name="preferences_sequence_group_length_summary">%s</string>
+    <string-array name="preferences_sequence_group_length_desc">
+        <item>一本ずつ</item>
+        <item>少なめ</item>
+        <item>通常</item>
+        <item>多め</item>
+        <item>多い</item>
+    </string-array>
+    <string name="preferences_sequence_display_mode">リサイズ</string>
+    <string name="preferences_sequence_display_mode_summary">%s</string>
+    <string-array name="preferences_sequence_display_mode_desc">
+        <item>高さと幅に合わせる</item>
+        <item>幅に合わせる</item>
+        <item>高さに合わせる</item>
+        <item>元のサイズ</item>
+    </string-array>
+    <string name="preferences_sequence_scroll_mode">スクロール</string>
+    <string name="preferences_sequence_scroll_mode_summary">%s</string>
+    <string-array name="preferences_sequence_scroll_mode_desc">
+        <item>有効</item>
+        <item>無効</item>
+        <item>強制</item>
+    </string-array>
+
+    <string name="title_activity_color_picker">色選択</string>
+</resources>

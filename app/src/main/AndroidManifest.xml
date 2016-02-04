@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 Matteo Bernacchia <kikijikispaccaspecchi@gmail.com> -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kikijiki.ryukisenga" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="20" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="false" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <uses-feature
+        android:name="android.software.live_wallpaper"
+        android:required="true" >
+    </uses-feature>
+
+    <application
+        android:allowBackup="true"
+        android:description="@string/wallpaper_description"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <service
+            android:name=".Ryukisenga"
+            android:enabled="true"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_WALLPAPER" >
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/ryukisenga" >
+            </meta-data>
+        </service>
+
+        <activity
+            android:name=".preferences.WallPreferences"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ui.LicenseMessageActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".playlist.PlaylistActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".gallery.ArtistPageActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".gallery.ArtistsIndexActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".styles.CustomStylesActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".styles.StylePickerActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".styles.StyleEditorActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".styles.TilePickerActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".styles.GradientEditorActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".preferences.LicenseNotesActivity"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>

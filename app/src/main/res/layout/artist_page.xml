@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 Matteo Bernacchia <kikijikispaccaspecchi@gmail.com> -->
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/artist_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+		<com.kikijiki.ryukisenga.ui.SinScrollView
+			android:layout_width="match_parent"
+			android:layout_height="0dip"
+			android:layout_weight="1"
+			android:padding="2dp">
+			
+			<LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_vertical"
+	            android:clipChildren="false" >
+	            
+	            <ImageView
+	                android:id="@+id/artist_page_artist_icon"
+	                android:layout_width="120dp"
+	                android:layout_height="120dp"
+	                android:padding="4dp"
+	                android:contentDescription="@string/artist_page_artist_icon_description"
+	                android:src="@drawable/ic_launcher" />
+
+	            <TextView
+	                android:id="@+id/artist_page_artist_name"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textSize="36sp"/>
+			</LinearLayout>
+        </com.kikijiki.ryukisenga.ui.SinScrollView>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="true"
+            android:padding="4dp" >
+
+            <TableRow android:gravity="bottom" >
+
+                <TextView
+                    android:id="@+id/artist_page_artist_twitter_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="2dp"
+                    android:text="@string/artist_page_artist_twitter"
+                    android:textColor="@color/artist_info_label"
+                    android:textSize="20sp" />
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/artist_page_artist_twitter_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp" />
+                </HorizontalScrollView>
+            </TableRow>
+
+            <TableRow android:gravity="bottom" >
+
+                <TextView
+                    android:id="@+id/artist_page_artist_website_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="2dp"
+                    android:text="@string/artist_page_artist_website"
+                    android:textColor="@color/artist_info_label"
+                    android:textSize="20sp" />
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/artist_page_artist_website_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp" />
+                </HorizontalScrollView>
+            </TableRow>
+
+            <TableRow android:gravity="bottom" >
+
+                <TextView
+                    android:id="@+id/artist_page_artist_email_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="2dp"
+                    android:text="@string/artist_page_artist_mail"
+                    android:textColor="@color/artist_info_label"
+                    android:textSize="20sp" />
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/artist_page_artist_email_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:textSize="24sp" />
+                </HorizontalScrollView>
+            </TableRow>
+
+            <TableRow android:gravity="top" >
+
+                <TextView
+                    android:id="@+id/artist_page_artist_info_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="2dp"
+                    android:text="@string/artist_page_artist_info"
+                    android:textColor="@color/artist_info_label"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/artist_page_artist_info_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:scrollbars="vertical"/>
+            </TableRow>
+        </TableLayout>
+        
+        <com.kikijiki.ryukisenga.ui.ScrollableGridView
+            android:id="@+id/artist_page_gallery_grid"
+            android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:numColumns="auto_fit"
+		    android:verticalSpacing="4dp"
+		    android:horizontalSpacing="4dp"
+		    android:stretchMode="columnWidth"/> 
+	</LinearLayout>
+</ScrollView>
