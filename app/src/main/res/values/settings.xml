@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2012-2014 Matteo Bernacchia <kikijikispaccaspecchi@gmail.com> -->
+<!-- Copyright (C) 2012-2014 Matteo Bernacchia <dev@kikijiki.com> -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <item type="integer" format="integer" name="line_default_speed">100</item>
     <item type="integer" format="integer" name="line_max_speed">1000</item>
